@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Device backups may contain private keys, identifiers, and serials.
+*.bin
+*.hex
+*.zp
+*_RAM.*
+*_EXTRA.json
+dump_*.json
+dumps/
+output/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
