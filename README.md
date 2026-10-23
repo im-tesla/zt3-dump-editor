@@ -101,17 +101,6 @@ this SHA-256:
 1f678c9b9a5eac3902052f909380122f1584aed7be8f589982798573bd21d09f
 ~~~
 
-These ranges exclude the header/key area.
-
-## Tests
-
-~~~console
-python -m unittest discover -s tests -v
-~~~
-
-Tests use generated data. No firmware dumps or device keys are included.
-Keep backups outside the repository; `.gitignore` excludes common dump files.
-
 ## License
 
 [MIT](LICENSE).
